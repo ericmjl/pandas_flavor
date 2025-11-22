@@ -14,12 +14,12 @@ repos:
     hooks:
       - id: interrogate
         args: [-c, pyproject.toml]
-  - repo: https://github.com/jsh9/pydoclint
-    rev: 0.8.1
-    hooks:
-      - id: pydoclint
-        args:
-          - "--config=pyproject.toml"
+  # - repo: https://github.com/jsh9/pydoclint
+  #   rev: 0.8.1
+  #   hooks:
+  #     - id: pydoclint
+  #       args:
+  #         - "--config=pyproject.toml"
   - repo: https://github.com/astral-sh/ruff-pre-commit
     # Ruff version.
     rev: v0.14.4

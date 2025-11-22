@@ -2785,12 +2785,12 @@ packages:
   requires_python: '>=3.9'
 - pypi: ./
   name: pandas-flavor
-  version: 0.7.0
-  sha256: 3e98a6ce8319a18f2fd4076467d1de14aff8a6c9a4349e6ac84621eed7d7612f
+  version: 0.0.0
+  sha256: 19486c68f9e87404f808241ae51a2c99ffcc0df01655e90a36d4431cb97aca9c
   requires_dist:
   - pandas>=0.23
   - xarray
-  requires_python: '>=3.9'
+  requires_python: '>=3.10'
   editable: true
 - conda: https://conda.anaconda.org/conda-forge/linux-64/pandoc-3.8.2.1-ha770c72_0.conda
   sha256: 6b92e15cbc84ce4a0171ca0a9b9f483888a9065b17302d1503c0cacfcf8abd56

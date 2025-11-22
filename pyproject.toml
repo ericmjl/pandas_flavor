@@ -73,9 +73,9 @@ namespaces = false
 
 [project]
 name = "pandas-flavor"
-version = "0.7.0"
+dynamic = ["version"]
 description = "The easy way to write your own Pandas flavor"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 dependencies = [
     "pandas>=0.23",
     "xarray",

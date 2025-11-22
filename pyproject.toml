@@ -1,6 +1,6 @@
 # https://setuptools.pypa.io/en/latest/userguide/quickstart.html
 [build-system]
-requires = ["setuptools>=61.0", "wheel", "setuptools-scm>=8"]
+requires = ["setuptools>=80", "wheel", "setuptools-scm>=8"]
 build-backend = "setuptools.build_meta"
 
 [tool.black]
@@ -73,7 +73,7 @@ namespaces = false
 
 [project]
 name = "pandas-flavor"
-version="0.8.1"
+dynamic = ["version"]
 description = "The easy way to write your own Pandas flavor"
 requires-python = ">=3.10"
 dependencies = [

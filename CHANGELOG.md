@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [v0.8.1] - 2025-11-22
+
 ## [v0.8.0] - 2025-11-22
 
 -   rename register_groupby_method to register_dataframe_groupby_method. Added register_series_groupby_method. @samukweku
@@ -14,7 +16,9 @@
 
 -   [ENH] Enable callbacks for pandas DataFrame and Series accessors. (@asmirnov69)
 
-[Unreleased]: https://github.com/pyjanitor-devs/pandas_flavor/compare/v0.8.0...HEAD
+[Unreleased]: https://github.com/pyjanitor-devs/pandas_flavor/compare/v0.8.1...HEAD
+
+[v0.8.1]: https://github.com/pyjanitor-devs/pandas_flavor/compare/v0.8.0...v0.8.1
 
 [v0.8.0]: https://github.com/pyjanitor-devs/pandas_flavor/compare/v0.7.0...v0.8.0
 
